@@ -1,0 +1,13 @@
+<article>
+    <a class="detalle" href="/productos/detalle/<%= product.id %> ">
+        <figure>
+            <img src="/images/<%= product.image %> " alt="image-destacados">
+        </figure>
+        <h3 class="destacados-products-model"><%= product.description %> </h3>
+        <p class="destacados-products-price">$ <%= product.price %> </p>
+        <p class="destacados-products-cart">
+            Agregar al carrito
+            <i class="fa-solid fa-cart-shopping"></i>
+        </p>
+    </a>
+</article>
