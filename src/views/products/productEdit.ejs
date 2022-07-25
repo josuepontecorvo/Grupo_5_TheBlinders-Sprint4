@@ -11,7 +11,7 @@
         <div class="CRUD">
             <h2>Editar Producto</h2>
 
-            <form action="/productos" method="GET" class="CRUD-form">
+            <form action="/productos/<%= product.id %>?_method=PUT " method="POST" enctype="multipart/form-data" class="CRUD-form">
                 <div class="form-control">
                     <label class="input-label">Producto:</label>
                     <% if (product.product == "bicicletas") { %>

@@ -2,13 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const jsonDB = require('../model/jsonDatabase');
 const productModel = jsonDB('products');
-const productsJSON = fs.readFileSync(path.resolve(__dirname, '../dataBase/products.json'), 'utf8');
-const products = JSON.parse(productsJSON);
-
 
 controller = {
 
-    products: (req,res) => res.render('products/products', {products}),
+    products: (req,res) => {
+        const products = productModel.readFile();
+        res.render('products/products', {products})
+    },
 
     detail: (req,res) => { 
         const id = +req.params.id;
@@ -45,8 +45,27 @@ controller = {
 
     edit: (req,res) => { 
         const id = +req.params.id;
-        const product = products.find( product => product.id == id);  
+        const product = productModel.find(id);    
         res.render('products/productEdit',{product});
+    },
+
+    delete: (req,res) => {
+        let idToDelete = req.params.id;
+        productModel.delete(idToDelete);
+        res.redirect('/productos');
+    },
+
+    update: (req,res) => {
+        let idToUpdate = req.params.id;
+        let dataUpdate = req.body;
+        dataUpdate.image = req.file.filename;
+        console.log(req.file);
+        let productUpdate = {
+            id: idToUpdate,
+            ...dataUpdate,
+        }
+        productModel.update(productUpdate);
+        res.redirect('/productos');
     },
 };
 

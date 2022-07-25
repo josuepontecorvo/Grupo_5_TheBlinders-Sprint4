@@ -1,10 +1,11 @@
 const fs = require('fs');
 const path = require('path');
-const productsJSON = fs.readFileSync(path.resolve(__dirname, '../dataBase/products.json'), 'utf8');
-const products = JSON.parse(productsJSON);
+const jsonDB = require('../model/jsonDatabase.js');
+const productModel = jsonDB('products');
 
 controller = {
     index : (req,res) => {
+        const products = productModel.readFile();
         const highlight = products.filter(product => product.discount != 0);     
         res.render('main/index',{highlight});
     },

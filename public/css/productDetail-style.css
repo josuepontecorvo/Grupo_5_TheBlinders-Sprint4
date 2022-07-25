@@ -210,8 +210,30 @@ main .detail-container .detail-column-2 {
     transition: all 0.7s;
 }
 
-.detail-column-2 .edit-button {
-    width: 50%;
+.detail-column-2 .detail-send-free {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.detail-send-free i {
+    color: rgb(51, 186, 51)
+}
+
+.detail-container .admin-buttons {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-container .admin-buttons a,
+.detail-container .admin-buttons form {
+    width: 45%;
+}
+
+.detail-column-2 button.edit-button,
+.detail-column-2 button.delete-button {
+    width: 100%;
     margin-top: 10px;
     background-color: #fa4500;
     padding: 5px;
@@ -227,15 +249,6 @@ main .detail-container .detail-column-2 {
     box-shadow: 0px 0px 20px rgb(100, 100, 100);
     cursor: pointer;
     font-size: 18px;
-}
-
-.detail-column-2 .detail-send-free {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.detail-send-free i {
-    color: rgb(51, 186, 51)
 }
 
 section.paid-options {
