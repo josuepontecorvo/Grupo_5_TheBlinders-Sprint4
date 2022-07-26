@@ -10,11 +10,11 @@
     <main>
         <div class="register">
             <h2>CREA TU CUENTA</h2>
-            <form action="/usuarios/registro" method="POST" class="register-form">
+            <form action="/usuarios/registro" method="POST" enctype="multipart/form-data" class="register-form">
                 <div class="user-image">
                     <i class="fa-solid fa-circle-user"></i>
                     <label for="user-image">Carga tú foto de perfil</label>
-                    <input type="file" name="profile-img" id="user-image" style="visibility: hidden;"  accept=".jpg, .png" />
+                    <input type="file" name="profileimg" id="user-image" style="visibility: hidden;"  accept=".jpg, .png" />
                 </div>
                 <div class="fill-form">
                     <diV class="user-name">

@@ -5,14 +5,12 @@ controlador = {
     register: (req,res) => res.render('users/register'),
 
     store: (req,res) => {
-        let user = {
-            firstname: req.body.firstname,
-            lastname: req.body.lastname,
-            birthdate: req.body.birthdate,
-            email: req.body.email,
-            password: req.body.password,
-            phonenumber: req.body.phonenumber,
-            profileimg: req.body.profileimg
+        let user = req.body;
+        if(req.file) {
+            user.profileimg = req.file.filename;
+        }
+        else {
+            user.profileimg = 'default-user.png'
         }
         userModel.create(user);
 

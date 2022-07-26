@@ -107,5 +107,17 @@
   "password": "Lalalala",
   "phonenumber": "+54 911 4582 6592",
   "id": 11
+ },
+ {
+  "firstname": "John",
+  "lastname": "Dow",
+  "birthdate": "1987-01-25",
+  "email": "johndow@mail.com",
+  "password": "Lalalala",
+  "user-confirm-password": "Lalalala",
+  "phonenumber": "+54 911 4582 6592",
+  "userTerms": "on",
+  "profileimg": "default-user.png",
+  "id": 12
  }
 ]

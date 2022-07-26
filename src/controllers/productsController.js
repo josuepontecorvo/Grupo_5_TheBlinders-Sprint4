@@ -19,24 +19,12 @@ controller = {
     create: (req,res) => res.render('products/productCreate'),
 
     store: (req, res) => {
-        let product = {
-            product: req.body.product,
-            type: req.body.type,
-            description: req.body.description,
-            image: req.body.image,
-            price: req.body.price,
-            discount: req.body.discount,
-            brand: req.body.brand,
-            model: req.body.model,
-            size: req.body.size,
-            color: req.body.color,
-            rolled: req.body.rolled,
-            frame: req.body.frame,
-            shifter: req.body.shifter,
-            brakes: req.body.brakes,
-            suspension: req.body.suspension,
-            cubiertas: req.body.cubiertas,
-            info: req.body.info
+        let product = req.body;
+        if(req.file) {
+            product.image = req.file.filename;
+        }
+        else {
+            product.image = 'default-product-image.png'
         }
         productModel.create(product);
 
