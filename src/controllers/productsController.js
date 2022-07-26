@@ -46,8 +46,8 @@ controller = {
     update: (req,res) => {
         let idToUpdate = req.params.id;
         let dataUpdate = req.body;
-        dataUpdate.image = req.file.filename;
-        console.log(req.file);
+        const product = productModel.find(idToUpdate);   
+        dataUpdate.image = req.file? req.file.filename: product.image;
         let productUpdate = {
             id: idToUpdate,
             ...dataUpdate,

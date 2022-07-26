@@ -29,6 +29,6 @@ Luego de realizar la retrospectiva de la etapa finalizada, utilizando el método
     -Trabajar sobre el archivo raiz del proyecto (usar ramas).
 
 
-Corolario Sprint 2:
+Corolario Sprint 3:
     Hubo una comunicación mas fluida entre los miembros del equipo, las tareas se realizaron progresivamente, logrando llegar a la etapa de la entrega con  tiempo para revisar lo realizado. Se comenzo a trabajar sobre ramas en las pcs de cada miembro, de todos modos hay que continuar avanzando sobre este tópico.
 
