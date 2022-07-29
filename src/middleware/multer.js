@@ -1,7 +1,7 @@
 const multer = require('multer');
 const path = require('path');
 
-function multerMiddleware (folderName) {
+function multerMiddleware (folderName, entity) {
 
 const storage =  multer.diskStorage({
     destination: function (req, file, cb) { 
@@ -9,7 +9,7 @@ const storage =  multer.diskStorage({
         cb(null, folder); 
      }, 
      filename: function (req, file, cb) { 
-        cb(null, `product-img-${Date.now()}${path.extname(file.originalname)}`);  } 
+        cb(null, `${entity}-img-${Date.now()}${path.extname(file.originalname)}`);  } 
 });
 
 return  multer({storage})

@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const usersController = require('../controllers/usersController');
 const multerMiddleware = require('../middleware/multer')
-const uploadFile = multerMiddleware('images/users');
+const uploadFile = multerMiddleware('images/users',"user");
 
 
 router.get('/', usersController.list);
