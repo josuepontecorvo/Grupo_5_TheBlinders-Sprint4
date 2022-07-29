@@ -212,7 +212,7 @@ div.burger-menu .burger-options li {
 main .destacados article {
     width: 90vw;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto;
     transition: all 0.5s;
 }
 

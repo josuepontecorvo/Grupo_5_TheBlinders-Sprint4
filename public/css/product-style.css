@@ -221,7 +221,7 @@ section.products-list a.detail {
 section.products-list article {
     width: 90vw;
     text-align: center;
-    margin: 0 auto;
+    margin: 40px auto;
     transition: all 0.5s;
 }
 

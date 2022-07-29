@@ -8,7 +8,9 @@
   "password": "0DSUlNT4G1",
   "phonenumber": "5309101732",
   "userTerms": "on",
-  "profileimg": "default-user.png"
+  "profileimg": [
+   "default-user.png"
+  ]
  },
  {
   "id": 2,
@@ -19,7 +21,9 @@
   "password": "9Dz78nx4",
   "phonenumber": "7586675592",
   "userTerms": "on",
-  "profileimg": "default-user.png"
+  "profileimg": [
+   "default-user.png"
+  ]
  },
  {
   "id": 3,
@@ -30,7 +34,9 @@
   "password": "Iqkii1",
   "phonenumber": "6178815963",
   "userTerms": "on",
-  "profileimg": "default-user.png"
+  "profileimg": [
+   "default-user.png"
+  ]
  },
  {
   "id": 4,
@@ -41,7 +47,9 @@
   "password": "Dy3iyRxbYzf",
   "phonenumber": "8767142344",
   "userTerms": "on",
-  "profileimg": "default-user.png"
+  "profileimg": [
+   "default-user.png"
+  ]
  },
  {
   "id": 5,
@@ -52,7 +60,9 @@
   "password": "RJDfJ7",
   "phonenumber": "4048683944",
   "userTerms": "on",
-  "profileimg": "default-user.png"
+  "profileimg": [
+   "default-user.png"
+  ]
  },
  {
   "id": 6,
@@ -63,7 +73,9 @@
   "password": "lmnv4C",
   "phonenumber": "6856028011",
   "userTerms": "on",
-  "profileimg": "default-user.png"
+  "profileimg": [
+   "default-user.png"
+  ]
  },
  {
   "id": 7,
@@ -74,7 +86,9 @@
   "password": "Sbxw3P",
   "phonenumber": "6608809302",
   "userTerms": "on",
-  "profileimg": "default-user.png"
+  "profileimg": [
+   "default-user.png"
+  ]
  },
  {
   "id": 8,
@@ -85,7 +99,9 @@
   "password": "mGp0WiLQG5ui",
   "phonenumber": "1388740385",
   "userTerms": "on",
-  "profileimg": "default-user.png"
+  "profileimg": [
+   "default-user.png"
+  ]
  },
  {
   "id": 9,
@@ -96,7 +112,9 @@
   "password": "oPCuDLCWIxA",
   "phonenumber": "9816660743",
   "userTerms": "on",
-  "profileimg": "default-user.png"
+  "profileimg": [
+   "default-user.png"
+  ]
  },
  {
   "id": 10,
@@ -107,6 +125,8 @@
   "password": "GUYkpBAjG9M5",
   "phonenumber": "4754274536",
   "userTerms": "on",
-  "profileimg": "default-user.png"
+  "profileimg": [
+   "default-user.png"
+  ]
  }
 ]

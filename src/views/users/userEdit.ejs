@@ -12,9 +12,9 @@
             <h2>EDITA TU CUENTA</h2>
             <form action="/usuarios/editar/<%= user.id %>?_method=PUT" method="POST" enctype="multipart/form-data" class="register-form">
                 <div class="user-image">
-                    <img src="/images/users/<%= user.profileimg %>  " alt="">
+                    <img src="/images/users/<%= user.profileimg[0] %>  " alt="">
                     <label for="user-image">Carga tú foto de perfil</label>
-                    <input type="file" name="profileimg" id="user-image" style="visibility: hidden;"  accept=".jpg, .png" />
+                    <input type="file" name="profileimg" id="user-image" style="visibility: hidden;" multiple accept=".jpg, .png" />
                 </div>
                 <div class="fill-form">
                     <diV class="user-name">

@@ -19,9 +19,9 @@
                                     let url = user.profileimg
                                     if (url.indexOf('http') != -1) { 
                                 %>
-                                    <img src="<%= user.profileimg %>" alt="image-destacados">
+                                    <img src="<%= user.profileimg[0] %>" alt="image-destacados">
                                 <% } else { %>
-                                    <img src="/images/users/<%= user.profileimg %> " alt="image-destacados">
+                                    <img src="/images/users/<%= user.profileimg[0] %> " alt="image-destacados">
                                 <% } %>
                             </figure>
                             <h3 class="destacados-products-model"><%= user.firstname +" "+ user.lastname %></h3>

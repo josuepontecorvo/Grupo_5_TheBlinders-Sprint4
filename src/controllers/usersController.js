@@ -20,14 +20,13 @@ controlador = {
 
     store: (req,res) => {
         let user = req.body;
+        let imagenes= []
+        for(let i = 0 ; i<req.files.length;i++) {
+            imagenes.push(req.files[i].filename)
+        }
+        user.profileimg = imagenes.length > 0 ? imagenes : ['default-user.png'];
         if(user.password == user["user-confirm-password"] ) {
             delete user["user-confirm-password"];
-            if(req.file) {
-                user.profileimg = req.file.filename;
-            }
-            else {
-                user.profileimg = 'default-user.png'
-            }
             userModel.create(user);
     
             res.redirect('/');
@@ -52,21 +51,47 @@ controlador = {
         let idToUpdate = req.params.id;
         let dataUpdate = req.body;
         const user = userModel.find(idToUpdate);   
-        dataUpdate.profileimg = req.file? req.file.filename: user.profileimg;
-        dataUpdate.password = req.body.password? req.body.password: user.password;
-        let userUpdate = {
-            id: idToUpdate,
-            ...dataUpdate,
+        let imagenes= []
+        for(let i = 0 ; i<req.files.length;i++) {
+            imagenes.push(req.files[i].filename)
         }
-        userModel.update(userUpdate);
-        res.redirect('/usuarios');
+        dataUpdate.profileimg = imagenes.length > 0 ? imagenes : user.profileimg;
+
+        if(dataUpdate.password != "") {
+            if(dataUpdate.password == dataUpdate["user-confirm-password"] ) {
+                delete dataUpdate["user-confirm-password"];
+                let userUpdate = {
+                    id: idToUpdate,
+                    ...dataUpdate,
+                }
+                userModel.update(userUpdate);
+                res.redirect('/usuarios');
+            } else {
+                alert('Verifique que coincida la validación de la contraseña')
+                res.redirect('/usuarios/editar/'+user.id);
+            }
+        } else {
+            delete dataUpdate["user-confirm-password"];
+            dataUpdate.password = user.password;
+            let userUpdate = {
+                id: idToUpdate,
+                ...dataUpdate,
+            }
+            userModel.update(userUpdate);
+            res.redirect('/usuarios');
+        }
+
+
+        
     },
 
     delete: (req,res) => {
         let idToDelete = req.params.id;
         let user = userModel.find(idToDelete);
-        let pathToImage = path.join(__dirname, '../../public/images/users/'+ user.profileimg);
-        fs.unlinkSync( pathToImage );
+        for (let i = 0; i < user.profileimg.length; i++) {
+            let pathToImage = path.join(__dirname, '../../public/images/users/'+ user.profileimg[i]);
+            fs.unlinkSync( pathToImage );
+        }
         userModel.delete(idToDelete);
         res.redirect('/');
     },
