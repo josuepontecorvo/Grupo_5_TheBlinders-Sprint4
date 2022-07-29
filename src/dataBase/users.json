@@ -3,121 +3,110 @@
   "id": 1,
   "firstname": "Leif",
   "lastname": "Pachta",
-  "birthdate": "5/23/1996",
+  "birthdate": "1996-08-15",
   "email": "lpachta0@hubpages.com",
   "password": "0DSUlNT4G1",
   "phonenumber": "5309101732",
-  "profileimg": "https://robohash.org/quaerataccusamusconsequatur.png?size=50x50&set=set1"
+  "userTerms": "on",
+  "profileimg": "default-user.png"
  },
  {
   "id": 2,
   "firstname": "Roanne",
   "lastname": "Gwynn",
-  "birthdate": "1/10/2003",
+  "birthdate": "2003-01-10",
   "email": "rgwynn1@economist.com",
   "password": "9Dz78nx4",
   "phonenumber": "7586675592",
-  "profileimg": "https://robohash.org/quasiearumhic.png?size=50x50&set=set1"
+  "userTerms": "on",
+  "profileimg": "default-user.png"
  },
  {
   "id": 3,
   "firstname": "Meghan",
   "lastname": "Rudeyeard",
-  "birthdate": "7/6/1980",
+  "birthdate": "1980-06-07",
   "email": "mrudeyeard2@wix.com",
   "password": "Iqkii1",
   "phonenumber": "6178815963",
-  "profileimg": "https://robohash.org/optioconsequaturnecessitatibus.png?size=50x50&set=set1"
+  "userTerms": "on",
+  "profileimg": "default-user.png"
  },
  {
   "id": 4,
   "firstname": "Osbourn",
   "lastname": "Wichard",
-  "birthdate": "8/20/1980",
+  "birthdate": "1980-08-20",
   "email": "owichard3@github.com",
   "password": "Dy3iyRxbYzf",
   "phonenumber": "8767142344",
-  "profileimg": "https://robohash.org/consequaturutveritatis.png?size=50x50&set=set1"
+  "userTerms": "on",
+  "profileimg": "default-user.png"
  },
  {
   "id": 5,
   "firstname": "Antonino",
   "lastname": "Elcomb",
-  "birthdate": "8/18/2001",
+  "birthdate": "2001-08-21",
   "email": "aelcomb4@altervista.org",
   "password": "RJDfJ7",
   "phonenumber": "4048683944",
-  "profileimg": "https://robohash.org/dolorumcupiditateaspernatur.png?size=50x50&set=set1"
+  "userTerms": "on",
+  "profileimg": "default-user.png"
  },
  {
   "id": 6,
   "firstname": "Rory",
   "lastname": "Lobb",
-  "birthdate": "8/30/1982",
+  "birthdate": "1982-08-30",
   "email": "rlobb5@pen.io",
   "password": "lmnv4C",
   "phonenumber": "6856028011",
-  "profileimg": "https://robohash.org/corporisnihilsint.png?size=50x50&set=set1"
+  "userTerms": "on",
+  "profileimg": "default-user.png"
  },
  {
   "id": 7,
   "firstname": "Latrena",
   "lastname": "Schout",
-  "birthdate": "10/20/1994",
+  "birthdate": "1994-10-20",
   "email": "lschout6@google.ru",
   "password": "Sbxw3P",
   "phonenumber": "6608809302",
-  "profileimg": "https://robohash.org/eiusetquis.png?size=50x50&set=set1"
+  "userTerms": "on",
+  "profileimg": "default-user.png"
  },
  {
   "id": 8,
   "firstname": "Briano",
   "lastname": "Leake",
-  "birthdate": "10/13/1982",
+  "birthdate": "1982-10-13",
   "email": "bleake7@washington.edu",
   "password": "mGp0WiLQG5ui",
   "phonenumber": "1388740385",
-  "profileimg": "https://robohash.org/commodietneque.png?size=50x50&set=set1"
+  "userTerms": "on",
+  "profileimg": "default-user.png"
  },
  {
   "id": 9,
   "firstname": "Latashia",
   "lastname": "Birtle",
-  "birthdate": "3/6/1997",
+  "birthdate": "1997-06-03",
   "email": "lbirtle8@etsy.com",
   "password": "oPCuDLCWIxA",
   "phonenumber": "9816660743",
-  "profileimg": "https://robohash.org/idexercitationemest.png?size=50x50&set=set1"
+  "userTerms": "on",
+  "profileimg": "default-user.png"
  },
  {
   "id": 10,
   "firstname": "Lilly",
   "lastname": "Hansmann",
-  "birthdate": "5/2/2000",
+  "birthdate": "2000-02-20",
   "email": "lhansmann9@wufoo.com",
   "password": "GUYkpBAjG9M5",
   "phonenumber": "4754274536",
-  "profileimg": "https://robohash.org/aspernaturtemporevelit.png?size=50x50&set=set1"
- },
- {
-  "firstname": "John",
-  "lastname": "Dow",
-  "birthdate": "1987-01-25",
-  "email": "johndow@mail.com",
-  "password": "Lalalala",
-  "phonenumber": "+54 911 4582 6592",
-  "id": 11
- },
- {
-  "firstname": "John",
-  "lastname": "Dow",
-  "birthdate": "1987-01-25",
-  "email": "johndow@mail.com",
-  "password": "Lalalala",
-  "user-confirm-password": "Lalalala",
-  "phonenumber": "+54 911 4582 6592",
   "userTerms": "on",
-  "profileimg": "default-user.png",
-  "id": 12
+  "profileimg": "default-user.png"
  }
 ]

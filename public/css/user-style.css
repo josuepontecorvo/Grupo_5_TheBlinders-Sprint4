@@ -1,17 +1,14 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
 
 /*HEADER*/
-
 header {
-    /* background-color: #2c2c2c;  */
     background-image: linear-gradient(to top, #2c2c2c, rgb(75,75,75));
     padding-bottom: 5px;
-    /* opacity: 0.85; */
 }
 
 .top-header {
@@ -127,124 +124,124 @@ div.burger-menu .burger-options li {
     opacity: 0.96;
 }
 
-/* MAIN */
-main {
-    background-image: url('/images/Prueba1.webp');
-    background-size: cover;
-    background-position: top center;
-    background-attachment: fixed;
-    padding: 10vw 0;
+/*MAIN*/
+    /*BANNER*/
+
+.container-slider,.container-slider-mobile {
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
 }
 
-    /*REGISTER*/
+.container-slider {
+    display: none;
+}
 
-    div.register {
-        width: 88vw;
-        margin: 0 auto;
-        padding: 40px 20px;  
-        background-color: rgba(80, 80, 80, 0.9);
-        color: white;
-        border-radius: 10px;
+.slider {
+    padding: 0px;
+    display: flex;
+    width: 200%;
+    animation: slide 10s infinite alternate;
+    animation-timing-function: ease-in;
+    height: 100%;
+}
+
+.slider-section {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-images {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+    45% {
+        margin-left: 0;
+    }
+    55% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: -100%;
     }
     
-    div.register h2 {
-        text-align: center;
-        color: red;
-        border-bottom: 1.5px solid red;
-        margin-bottom: 30px;
-        padding-bottom: 3px;
-    }
+}
 
-    main form .user-image {
-        text-align: center;;
-    }
+.slider-button {
+    font-size:20px;
+    color:rgba(213, 38, 38, 0.7);
+}
 
-    main form .user-image i {
-        font-size: 100px;
-        margin-bottom: 20px;
-    }
+.slider-button:hover {
+    color: rgba(213, 38, 38, 1);
+}
 
-    main form .user-image img {
-        width: 150px;
-        margin-bottom: 20px;
-    }
+.slider-right-button {
+    position: absolute;
+    top: 40%;
+    right: 5%; 
+}
 
-    main form .user-image label:hover {
-        color: orangered;
-        cursor: pointer;
-    }
+.slider-left-button {
+    position: absolute;
+    top: 40%;
+    left: 5%; 
+}
+    /*DESTACADOS*/
 
-    main form .fill-form input {
-        width: 100%;
-        background-color: white;
-        height: 25px;
-        padding-left: 10px;
-        border-radius: 5px;
-    }
+.destacados a.detalle {
+    text-decoration: none;
+    color: black;
+}
 
-    main form input:focus {
-        color: green;
-        box-shadow: 0px 0px 10px rgb(48, 190, 233);
-    }
+.destacados h2 {
+    text-align: center;
+    margin: 5px auto;
+    border-bottom: 1px solid grey;
+}
 
-    main form div {
-        margin: 10px;
-    }
+main .destacados article {
+    width: 90vw;
+    text-align: center;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
 
-    main form div label {
-        display: block;
-        margin-bottom: 5px;
-        font-style: italic;
-    }
+main .destacados article img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
 
-    main form div span {
-        margin: 5px;
-        display: block;
-        color:red;
-    }
+main .destacados article h3 {
+    font-size: 15px;
+    font-family: sans-serif;
+}
 
-    main form div .register-term {
-        display: flex;
-        justify-content:space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        padding-top: 10px;
-    }
+main .destacados-products-price {
+    color: red;
+}
 
-    main form div .register-term input {
-        width: 25px;
-    }
+main .destacados-products-cart {
+    font-size: 12px;
+}
 
-    main form .submit-form {
-        text-align: right;
-    }
-
-    main form .submit-form button {
-        font-size: 18px;
-        padding: 5px;
-        background-color: orangered;
-        color: white;
-        border: none;
-        border-radius: 6px;
-        margin-top: 30px;
-        margin-left: 10px;
-        transition: all 0.5s;
-    }
-
-    main form .fill-form input:focus:invalid ~ .feedback::after {
-        color: red;
-        content: "⛔-Campo Invalido";
-    }
-
-    main form .fill-form input:focus:valid ~ .feedback::after {
-        color: green;
-        content: "✅";
-    }
+main .destacados-products-cart i {
+    color: green;
+}
 
 /*FOOTER*/
 
 footer {
     border-top: 1px solid black;
+    margin: 10px 0;
     background-color: rgb(230, 230, 230);
 }
 
@@ -349,7 +346,7 @@ footer {
     font-size: 12px;
 }
 
-/*MEDIA QUERY*/
+/*MEDIA QUERIES*/
 
 @media (min-width: 481px) {
 
@@ -368,9 +365,9 @@ footer {
     }
 
     .sign-in a {
-        color: #fa4500;  
+        color: #fa4500;
         margin-right:10px; 
-        text-decoration: none; 
+        text-decoration: none;   
     }
 
     .search-bar {
@@ -406,15 +403,44 @@ footer {
     .down-navbar li a:hover {
         font-weight: bold;
     }
+
+    /*MAIN*/
+
+    .container-slider {
+        display:block;
+    } 
+
+    .container-slider-mobile {
+        display:none;
+    }
+
+    /* .destacados {
+        height: 1200px;
+    } */
+
+    main .destacados-products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    main .destacados-products article {
+        width: 50%;
+    }
+
+    main .destacados article:hover {
+        box-shadow: 0px 0px 10px rgb(75, 75, 75);
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 45%;
+        padding: 5px;
+    }
 }
 
 @media (min-width: 960px) {
-    main {
-        background-attachment: scroll;
-        padding: 5vw 0;
-    }
 
     /*HEADER*/
+
     .sign-in {
         display:none;
     }
@@ -447,44 +473,24 @@ footer {
         width: 15%;
     }
 
-    /*REGISTER*/
+    /*MAIN*/
 
-    div.register {
-        width: 70vw;
+    .destacados {
+        /* height: 650px; */
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
-    div.register form {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap:wrap;
-        height: 620px;
-        justify-content: space-between;
+    main .destacados-products article {
+        width: 25%;
     }
 
-    div.fill-form {
-        width: 50%;
-        height: 100%;
-    }
-
-    div.user-image {
-        order:1;
-        width: 50%;
-        padding-top: 30px;
-    }
-
-    div.submit-form {
-        order: 3;
-        padding: 30px;
-        margin-right: 5%;
-    }
-
-    main form .submit-form button:hover {
-        color: rgb(51, 186, 51);
-        background-color: white; 
-        font-size: 15px ;
-        text-align: center;
-        box-shadow: 0 0 20px black;
+    main .destacados article:hover {
+        box-shadow: 0px 0px 10px rgb(75, 75, 75);
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 22%;
+        padding: 5px;
     }
 
     /*FOOTER*/
@@ -512,3 +518,4 @@ footer {
         text-align: left;
     }
 }
+

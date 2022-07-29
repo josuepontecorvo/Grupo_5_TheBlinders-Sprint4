@@ -39,6 +39,9 @@ controller = {
 
     delete: (req,res) => {
         let idToDelete = req.params.id;
+        let product = productModel.find(idToDelete);
+        let pathToImage = path.join(__dirname, '../../public/images/'+ product.image);
+        fs.unlinkSync( pathToImage );
         productModel.delete(idToDelete);
         res.redirect('/productos');
     },
