@@ -89,10 +89,14 @@
                     <article>
                         <a class="detail" href="/productos/detalle/<%= product.id %> ">
                             <figure>
-                                <img src="/images/<%= product.image %> " alt="imagen de producto">
+                                <img src="/images/<%= product.image[0] %> " alt="imagen de producto">
                             </figure>
                             <h3 class="description"><%= product.description %> </h3>
-                            <p class="price">$ <%= product.price %> </p>
+                            <p class="price">$ <% 
+                                let realPrice = product.discount ? product.price * (1-product.discount/100) : product.price;
+                                realPrice = realPrice.toFixed(0);
+                                realPrice = toThousand(realPrice);
+                            %>  <%= realPrice %>  </p>
                             <p class="cart">
                                 Agregar al carrito
                                 <i class="fa-solid fa-cart-shopping"></i>

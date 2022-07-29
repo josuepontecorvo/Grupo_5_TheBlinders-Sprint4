@@ -9,8 +9,8 @@ router.get('/', productsController.products);
 router.get('/detalle/:id', productsController.detail);
 router.get('/editar/:id', productsController.edit);
 router.get('/create', productsController.create);
-router.post('/create',uploadFile.single('image'), productsController.store);
+router.post('/create',uploadFile.array('image'), productsController.store);
 router.delete('/:id', productsController.delete);
-router.put('/:id',uploadFile.single('image'), productsController.update);
+router.put('/:id',uploadFile.array('image'), productsController.update);
 
 module.exports = router;

@@ -11,12 +11,12 @@
         <section class="detail-container">
             <div class="detail-column-1">
                 <div class="main-image">
-                    <img src="/images/<%= product.image %>" alt="Imagen detalle producto">
+                    <img src="/images/<%= product.image[0] %>" alt="Imagen detalle producto">
                 </div>
-                <div class="secondary-images">
-                    <img src="/images/bicicletaRodado26venzoSkyline2.jpg" alt="Imagen de producto">
-                    <img src="/images/bicicletaRodado26venzoSkyline3.png" alt="Imagen de producto">
-                    <img src="/images/bicicletaRodado26venzoSkyline4.jpg" alt="Imagen de Producto">
+                <div class="secondary-images"> 
+                    <img src=<%= product.image[1] || "/images/bicicletaRodado26venzoSkyline2.jpg" %> alt="Imagen de producto">
+                    <img src=<%= product.image[2] || "/images/bicicletaRodado26venzoSkyline2.jpg" %> alt="Imagen de producto">
+                    <img src=<%= product.image[3] || "/images/bicicletaRodado26venzoSkyline2.jpg" %> alt="Imagen de Producto">
                 </div>
                 <p class="detail-footer">Garantía de 12 meses</p>
             </div>
@@ -34,7 +34,11 @@
                         Frenos: <%= product.brakes %>.<br>
                         Horquillas de suspension:<%= product.suspension %><br>
                 </p>
-                <p class="detail-price">Precio: $ <%= product.price %></p>
+                <p class="detail-price">Precio: $ <% 
+                    let realPrice = product.discount ? product.price * (1-product.discount/100) : product.price;
+                    realPrice = realPrice.toFixed(0);
+                    realPrice = toThousand(realPrice);
+                %>  <%= realPrice %> </p>
                 <a href="/usuarios/carrito">
                     <button class="detail-add-cart">Agregar al carrito <i class="fa-solid fa-cart-shopping"></i></button>
                 </a>

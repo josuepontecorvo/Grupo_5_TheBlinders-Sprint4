@@ -4,7 +4,9 @@
   "product": "bicicletas",
   "type": "MTB",
   "description": "BICICLETA MTB RODADO 29 OLMO WISH 290 ENTRY",
-  "image": "bicicletaRodado29olmoWish1.jpg",
+  "image": [
+   "bicicletaRodado29olmoWish1.jpg"
+  ],
   "price": "59087",
   "discount": "0",
   "brand": "Olmo",
@@ -25,7 +27,9 @@
   "product": "bicicletas",
   "type": "MTB",
   "description": "BICICLETA MTB RODADO 29 VENZO FRIDA DIVA",
-  "image": "bicicletaRodado29venzoFridaDiva1.jpg",
+  "image": [
+   "bicicletaRodado29venzoFridaDiva1.jpg"
+  ],
   "price": "102056",
   "discount": "0",
   "brand": "Venzo",
@@ -46,7 +50,9 @@
   "product": "bicicletas",
   "type": "MTB",
   "description": "BICICLETA MTB RODADO 29 SPY BULLET DISC",
-  "image": "bicicletaRodado29spyBulletDisc1.jpg",
+  "image": [
+   "bicicletaRodado29spyBulletDisc1.jpg"
+  ],
   "price": "106399",
   "discount": "10",
   "brand": "Spy",
@@ -67,7 +73,9 @@
   "product": "bicicletas",
   "type": "MTB",
   "description": "BICICLETA MTB RODADO 27.5 VENZO AMPHION",
-  "image": "bicicletaRodado27venzoAmphion1.jpg",
+  "image": [
+   "bicicletaRodado27venzoAmphion1.jpg"
+  ],
   "price": "57200",
   "discount": "10",
   "brand": "Venzo",
@@ -88,7 +96,9 @@
   "product": "bicicletas",
   "type": "MTB",
   "description": "BICICLETA MTB RODADO 27.5 VENZO TANGO",
-  "image": "bicicletaRodado27venzoTango1.jpg",
+  "image": [
+   "bicicletaRodado27venzoTango1.jpg"
+  ],
   "price": "86900",
   "discount": "10",
   "brand": "Venzo",
@@ -109,7 +119,9 @@
   "product": "bicicletas",
   "type": "MTB",
   "description": "BICICLETA MTB RODADO 27.5 TEKNIAL TARPAN",
-  "image": "bicicletaRodado27teknialTarpan1.jpg",
+  "image": [
+   "bicicletaRodado27teknialTarpan1.jpg"
+  ],
   "price": "43500",
   "discount": "10",
   "brand": "Teknial",
@@ -130,7 +142,9 @@
   "product": "bicicletas",
   "type": "MTB",
   "description": "BICICLETA MTB RODADO 26 MERIDA MATTS LITE",
-  "image": "bicicletaRodado26meridaMattsLite1.jpg",
+  "image": [
+   "bicicletaRodado26meridaMattsLite1.jpg"
+  ],
   "price": "180165",
   "discount": "0",
   "brand": "Merida",
@@ -151,7 +165,9 @@
   "product": "bicicletas",
   "type": "MTB",
   "description": "BICICLETA MTB RODADO 26 OLMO FLASH 265 DISC",
-  "image": "bicicletaRodado26olmoFlash265disc1.jpg",
+  "image": [
+   "bicicletaRodado26olmoFlash265disc1.jpg"
+  ],
   "price": "66066",
   "discount": "0",
   "brand": "Olmo",
@@ -172,7 +188,9 @@
   "product": "bicicletas",
   "type": "MTB",
   "description": "BICICLETA MTB RODADO 26 VENZO SKYLINE",
-  "image": "bicicletaRodado26venzoSkyline1.jpg",
+  "image": [
+   "bicicletaRodado26venzoSkyline1.jpg"
+  ],
   "price": "59300",
   "discount": "10",
   "brand": "Venzo",
@@ -193,7 +211,9 @@
   "product": "bicicletas",
   "type": "MTB",
   "description": "BICICLETA MTB RODADO 26 SPY RIDDER",
-  "image": "bicicletaRodado26spyRidder1.jpg",
+  "image": [
+   "bicicletaRodado26spyRidder1.jpg"
+  ],
   "price": "58300",
   "discount": "0",
   "brand": "Spy",
@@ -214,7 +234,9 @@
   "product": "bicicletas",
   "type": "RUTA",
   "description": "BICICLETA RUTA RODADO 28 VENZO PHOENIX",
-  "image": "bicicletaRodado28VenzoPhoenix1.jpeg",
+  "image": [
+   "bicicletaRodado28VenzoPhoenix1.jpeg"
+  ],
   "price": "132200",
   "discount": "0",
   "brand": "Venzo",
@@ -235,7 +257,9 @@
   "product": "bicicletas",
   "type": "RUTA",
   "description": "BICICLETA RUTA RODADO 28 VENZO ETNA",
-  "image": "bicicletaRodado28VenzoEtna1.jpeg",
+  "image": [
+   "bicicletaRodado28VenzoEtna1.jpeg"
+  ],
   "price": "339000",
   "discount": "0",
   "brand": "Venzo",
@@ -256,7 +280,9 @@
   "product": "bicicletas",
   "type": "RUTA",
   "description": "BICICLETA RUTA RODADO 28 TOPMEGA HARRIER",
-  "image": "bicicletaRodado28TopmegaHarrier1.jpeg",
+  "image": [
+   "bicicletaRodado28TopmegaHarrier1.jpeg"
+  ],
   "price": "125300",
   "discount": "0",
   "brand": "Topmega",
@@ -277,7 +303,9 @@
   "product": "bicicletas",
   "type": "RUTA",
   "description": "BICICLETA RUTA RODADO 28 CANNONDALE SUPERSIX",
-  "image": "bicicletaRodado28CannondaleSupersix1.jpg",
+  "image": [
+   "bicicletaRodado28CannondaleSupersix1.jpg"
+  ],
   "price": "626481",
   "discount": "10",
   "brand": "Cannondale",
@@ -298,7 +326,9 @@
   "product": "bicicletas",
   "type": "RUTA",
   "description": "BICICLETA RUTA RODADO 28 SPECIALIZED TARMAC",
-  "image": "bicicletaRodado28SpecializedTarmac1.jpg",
+  "image": [
+   "bicicletaRodado28SpecializedTarmac1.jpg"
+  ],
   "price": "2148243",
   "discount": "0",
   "brand": "Specialized",
@@ -319,7 +349,9 @@
   "product": "bicicletas",
   "type": "RUTA",
   "description": "BICICLETA RUTA RODADO 28 SPECIALIZED TARMAC SL7",
-  "image": "bicicletaRodado28SpecializedTarmacSL1.jpg",
+  "image": [
+   "bicicletaRodado28SpecializedTarmacSL1.jpg"
+  ],
   "price": "2148243",
   "discount": "0",
   "brand": "Specialized",
@@ -340,7 +372,9 @@
   "product": "bicicletas",
   "type": "RUTA",
   "description": "BICICLETA RUTA RODADO 28 KTM REVELATOR",
-  "image": "bicicletaRodado28KTMRevelator1.jpg",
+  "image": [
+   "bicicletaRodado28KTMRevelator1.jpg"
+  ],
   "price": "596136",
   "discount": "10",
   "brand": "KTM",
@@ -361,7 +395,9 @@
   "product": "bicicletas",
   "type": "RUTA",
   "description": "BICICLETA RUTA RODADO 28 MERIDA SCULTURA",
-  "image": "bicicletaRodado28MeridaScultura1.jpg",
+  "image": [
+   "bicicletaRodado28MeridaScultura1.jpg"
+  ],
   "price": "336115",
   "discount": "0",
   "brand": "Merida",
@@ -382,7 +418,9 @@
   "product": "bicicletas",
   "type": "RUTA",
   "description": "BICICLETA RUTA RODADO 28 RALEIGH STRADA",
-  "image": "bicicletaRodado28RaleighStrada1.jpg",
+  "image": [
+   "bicicletaRodado28RaleighStrada1.jpg"
+  ],
   "price": "169984",
   "discount": "10",
   "brand": "Raleigh",
@@ -403,7 +441,9 @@
   "product": "bicicletas",
   "type": "RUTA",
   "description": "BICICLETA RUTA RODADO 28 POLYGON STRATTOS",
-  "image": "bicicletaRodado28PoligonStrattos1.jpg",
+  "image": [
+   "bicicletaRodado28PoligonStrattos1.jpg"
+  ],
   "price": "693919",
   "discount": "0",
   "brand": "Polygon",
@@ -424,7 +464,9 @@
   "product": "accesorios",
   "type": "casco",
   "description": "CASCO BBB KITE BHE-29 MTB",
-  "image": "cascoBbbMountainBike1.jpg",
+  "image": [
+   "cascoBbbMountainBike1.jpg"
+  ],
   "price": "12614",
   "discount": "0",
   "brand": "BBB",
@@ -445,7 +487,9 @@
   "product": "accesorios",
   "type": "casco",
   "description": "CASCO BICICLETA LAZER COMPACT IN MOLD CON VISERA",
-  "image": "cascoLazerCompact1.jpg",
+  "image": [
+   "cascoLazerCompact1.jpg"
+  ],
   "price": "8190",
   "discount": "0",
   "brand": "Lazer",
@@ -466,7 +510,9 @@
   "product": "accesorios",
   "type": "casco",
   "description": "CASCO URBANO/RUTA BELL AVENUE MIPS",
-  "image": "cascoUrbanoRutaBellAvenue.jpg",
+  "image": [
+   "cascoUrbanoRutaBellAvenue.jpg"
+  ],
   "price": "16333",
   "discount": "0",
   "brand": "Bell",
@@ -487,7 +533,9 @@
   "product": "accesorios",
   "type": "herramientas",
   "description": "CAJA DE HERRAMIENTAS SUPER B TBA500 27 PIEZAS",
-  "image": "cajaDeHerramientasSuperB.jpg",
+  "image": [
+   "cajaDeHerramientasSuperB.jpg"
+  ],
   "price": "19720",
   "discount": "0",
   "brand": "Super B",
@@ -526,7 +574,9 @@
   "product": "accesorios",
   "type": "varios",
   "description": "LUZ TRASERA VAN HALEN VAN040 120 LM AUTOMATICA",
-  "image": "luzTraseraVanHalen.jpg",
+  "image": [
+   "luzTraseraVanHalen.jpg"
+  ],
   "price": "3570",
   "discount": "0",
   "brand": "Van Halen",
@@ -551,7 +601,9 @@
   "product": "accesorios",
   "type": "varios",
   "description": "PORTACARAMAÑOLA SPECIALIZED CASCADE CAGE II",
-  "image": "portaCaramañolaSpecializedCascade.jpg",
+  "image": [
+   "portaCaramañolaSpecializedCascade.jpg"
+  ],
   "price": "2614",
   "discount": "0",
   "brand": "Specialized",
@@ -574,7 +626,9 @@
   "product": "accesorios",
   "type": "varios",
   "description": "PEDALES AUTOMATICOS RUTA SHIMANO PD-R550",
-  "image": "pedalesRutaShimano.jpg",
+  "image": [
+   "pedalesRutaShimano.jpg"
+  ],
   "price": "18994",
   "discount": "0",
   "brand": "Shimano",
@@ -600,7 +654,9 @@
   "product": "accesorios",
   "type": "varios",
   "description": "LENTES ANTEOJO DE CICLISMO 100% SPEEDTRAP ORIGINALES",
-  "image": "lentesCiclismoSpeedtrap.jpg",
+  "image": [
+   "lentesCiclismoSpeedtrap.jpg"
+  ],
   "price": "39480",
   "discount": "0",
   "brand": "Speedtrap",
@@ -625,7 +681,9 @@
   "product": "accesorios",
   "type": "varios",
   "description": "JERSEY MANGA CORTA GT RACE",
-  "image": "jerseyMangaCortaGtRace.jpg",
+  "image": [
+   "jerseyMangaCortaGtRace.jpg"
+  ],
   "price": "3941",
   "discount": "0",
   "brand": "GT Race",

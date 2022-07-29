@@ -444,6 +444,16 @@ footer {
         width: 50%;
         height: 100%;
     }
+
+    main .detail-column-1 .main-image {
+        height: 65%
+    }
+
+    main .detail-column-1 .main-image img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
     
     main .detail-container .detail-column-2 {
         width: 50%;
