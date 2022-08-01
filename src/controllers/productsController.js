@@ -61,6 +61,13 @@ controller = {
         productModel.update(productUpdate);
         res.redirect('/productos');
     },
+    
+    filter: (req,res) => {
+        let filtro = req.body;
+        const products = productModel.readFile();
+        res.render('products/products', {products,toThousand,filtro})
+    },
+
 };
 
 module.exports = controller;
