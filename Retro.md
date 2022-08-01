@@ -3,32 +3,30 @@ Retrospectiva 🕵️
 Luego de realizar la retrospectiva de la etapa finalizada, utilizando el método de la estrella de mar, se llegaron a las siguientes conclusiones:
 
 🔘Comenzar a hacer:
-    -Realizar reuniones no tan enfocadas en realizar una tarea sino en fortalecer el equipo.
-    -Evaluar las herramientas que dispone trello, git y github que ayudan al trabajo en equipo.
-    -Testear las funcionalidades.
-    -Peer review de tareas esenciales entre pares del equipo.
+    -No darle tanta importancia a las cosas negativas y enfocarse en los logros.
+    -Retrospectivas individuales en lugar de discutir todo el grupo en conjunto cada tópico. 
+    -Resolver cuestiones que afectan al trabajo de los demas con prioridad.
 
 ✅Hacer mas:
-    -Estimar tiempos de cada tarea.
-    -Codear la columna vertebral de la tarea para poder evaluarla en conjunto.
-    -Mejorar el código una vez terminadas todas las tareas del sprint.
-    -Evaluar como afectan las tareas actuales a las futuras.
+    -Revisar el código entre pares del equipo.
+    -Compartir la experiencia de la tarea realizada por cada uno con el resto del equipo.
+    -Testear el funcionamiento.
     
 ✅Continuar haciendo:
+    -Terminar el sprint con tiempo para poder revisarlo.
+    -Comunucación constante por el chat.
+    -Codear la columna vertebral de la tarea para poder evaluarla en conjunto.
+    -Evaluar como afectan las tareas actuales a las futuras.
     -Consultar a mis compañeros cuando algo no me sale.
-    -Completar tareas en tiempo y forma.
-    -Comunicarse con los compañeros a través del chat.
-    -Juntarse para definir cuestiones que afectan a todo el proyecto.
-    -Actualizar diarimente el estado de avance e informar a mis compañeros cuando comienzo una nueva tarea.
 
 ⚠️Hacer menos:
-    -Limitar las tareas que dependen de varias personas. En caso que sea inevitable apuntar a la programación en conjunto.
-    -Agregar tareas que no son exigidas por el cliente.
+    -Terminar tareas adicionales antes que las que son exigidas por el sprint. 
+    -Discutir si hacer o no una cambio ( Probarlo en una rama aparte y luego decidir si fusionarlo o no). 
 
 ⛔Dejar de hacer:
-    -Trabajar sobre el archivo raiz del proyecto (usar ramas).
+    -Reuniones en equipo sin una tarea planificada previemente.
 
 
 Corolario Sprint 3:
-    Hubo una comunicación mas fluida entre los miembros del equipo, las tareas se realizaron progresivamente, logrando llegar a la etapa de la entrega con  tiempo para revisar lo realizado. Se comenzo a trabajar sobre ramas en las pcs de cada miembro, de todos modos hay que continuar avanzando sobre este tópico.
+    Se terminaron las tareas con tiempo para testear, lo cual da animo al equipo y genera mas confianza para plantear mejoras y probarlas. 
 

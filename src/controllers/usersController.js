@@ -25,15 +25,10 @@ controlador = {
             imagenes.push(req.files[i].filename)
         }
         user.profileimg = imagenes.length > 0 ? imagenes : ['default-user.png'];
-        if(user.password == user["user-confirm-password"] ) {
-            delete user["user-confirm-password"];
-            userModel.create(user);
-    
-            res.redirect('/');
-        } else {
-            alert('Verifique que coincida la validación de la contraseña')
-            res.redirect('/usuarios/editar/'+user.id);
-        }
+        delete user["user-confirm-password"];
+        userModel.create(user);
+        res.redirect('/');
+       
        
     },
 
@@ -58,7 +53,6 @@ controlador = {
         dataUpdate.profileimg = imagenes.length > 0 ? imagenes : user.profileimg;
 
         if(dataUpdate.password != "") {
-            if(dataUpdate.password == dataUpdate["user-confirm-password"] ) {
                 delete dataUpdate["user-confirm-password"];
                 let userUpdate = {
                     id: idToUpdate,
@@ -66,10 +60,6 @@ controlador = {
                 }
                 userModel.update(userUpdate);
                 res.redirect('/usuarios');
-            } else {
-                alert('Verifique que coincida la validación de la contraseña')
-                res.redirect('/usuarios/editar/'+user.id);
-            }
         } else {
             delete dataUpdate["user-confirm-password"];
             dataUpdate.password = user.password;
