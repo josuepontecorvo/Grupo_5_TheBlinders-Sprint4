@@ -6,6 +6,7 @@ const uploadFile = multerMiddleware('images','product');
 
 
 router.get('/', productsController.products);
+router.get('/filtrar', productsController.filter);
 router.get('/detalle/:id', productsController.detail);
 router.get('/editar/:id', productsController.edit);
 router.get('/create', productsController.create);
