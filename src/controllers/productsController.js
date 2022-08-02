@@ -63,7 +63,7 @@ controller = {
     },
     
     filter: (req,res) => {
-        let filtro = req.body;
+        let filtro = req.query;
         const products = productModel.readFile();
         res.render('products/products', {products,toThousand,filtro})
     },
